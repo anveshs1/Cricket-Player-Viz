@@ -13,7 +13,9 @@ from scrape_players import get_players, get_player_stats_dfs
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 dash_app = Dash(__name__, external_stylesheets=external_stylesheets)
-cache = Cache(dash_app.server, config={
+# dash_app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash_app.server
+cache = Cache(app, config={
     # 'CACHE_TYPE': 'redis',
     # Note that filesystem cache doesn't work on systems with ephemeral
     # filesystems like Heroku.
