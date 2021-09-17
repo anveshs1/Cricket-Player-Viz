@@ -99,12 +99,7 @@ sition. The data points in the figures can be zoomed in/panned as needed interac
 it defualts to Indian player 'Virat Kohli'. Users can select any available country and this refreshes the players available for
 it. When a specific player is selected, the data for the select player is fetched and their graphs updated!
 
-Below are a few screenshots for reference.
-
-
-
-
-
+The app can be tested at https://cricket-player-viz.azurewebsites.net/
 
 
 
